@@ -1,7 +1,6 @@
 # 🔐 Cybersecurity Lab Environment Setup
 
 **My Week 1 project: building a private virtual lab with VirtualBox and Kali Linux**
-
 ![Cybersecurity](https://img.shields.io/badge/Skill-Cybersecurity-404040?style=flat-square&labelColor=C00000)
 ![VirtualBox](https://img.shields.io/badge/VirtualBox-Oracle-0070C0?style=flat-square&labelColor=000000)
 ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-v2026.3-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white)
@@ -96,7 +95,7 @@ Inside VirtualBox, I created my private network like this:
 3. Set the IPv4 prefix to `10.0.0.0/24`.
 4. Clicked **OK**.
 
-![VirtualBox Network Setup](VirtualBox-NetworkSetup.PNG)
+![VirtualBox Network Setup](VirtualBox-Network-Setup.PNG)
 
 I chose a NAT Network because VMs on the same NAT Network can talk to each other and still reach the internet. That is what I need for a lab with several machines.
 
