@@ -125,7 +125,7 @@ Next, I attached the Kali VM to my NAT Network and set a fixed IPv4 address:
 
 I used a fixed IP so the Kali machine is always easy to find and reference in future exercises.
 
-![Kali Network Configuration](VirtualBox-Network%20setup.PNG)
+![Kali Network Configuration](VirtualBox-Network-Setup.PNG)
 
 ---
 
